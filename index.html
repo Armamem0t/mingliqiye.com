@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="shortcut icon" href="https://avatars.githubusercontent.com/u/109898949?s=96&v=4" />
-    <title>关于Armament</title>
+    <link rel="shortcut icon" href="asstdat/image/icon.jpg" />
+    <title>Armament</title>
     <style>
         body {
             margin: 0;
@@ -66,14 +66,37 @@
             box-shadow: 0 2px rgba(0, 0, 0, 0.253);
             transform: translateY(1px);
         }
+        
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            padding: 12px 25px;
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
     </style>
 </head>
 
 <body>
     <div class="header">
-        <div style="height:80px;width:80px;float:right;">
+        <div id="title" style="height:80px;width:142px;float:left;"><img decoding="async" src="asstdat/image/title.png" style="height:80px;width:142px;" /></div>
+        <div class="dropdown" style="height:80px;width:80px;float:right;">
             <div style="height:60px;width:60px;padding:10px 10px;">
                 <a href="https://github.com/Armamem0t/mingliqiye.com"><button type="button" style="height:60px;width:60px;" class="mubt"><img decoding="async"src="https://github.githubassets.com/favicons/favicon.png"/></button></a>
+            </div>
+            <div class="dropdown-content" style="float:right;left:unset; right:0;height:145px;width:200px;">
+                <h2>点击访问GitHub</h2>
+                <p>访问此网页GitHub查看代码</p>
             </div>
         </div>
     </div>
