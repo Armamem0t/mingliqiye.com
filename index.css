@@ -29,6 +29,26 @@ body {
     font-family: seven;
 }
 
+h1{
+    font-family: blod;
+}
+
+h2{
+    font-family: blod;
+}
+
+h3{
+    font-family: blod;
+}
+
+h4{
+    font-family: blod;
+}
+
+h5{
+    font-family: blod;
+}
+
 .serif {
     font-family: "Times New Roman", Times, serif;
 }
@@ -42,7 +62,8 @@ body {
     height: 80px;
     top: 0;
     width: 100%;
-    padding: 0px 0px;
+    position: fixed;
+    padding: 0 0;
 }
 
 .bottom {
@@ -51,7 +72,7 @@ body {
     width: 100%;
     position: fixed;
     height: 40px;
-    padding: 0px;
+    padding: 0;
 }
 
 .main {
@@ -84,7 +105,7 @@ body {
 }
 
 .mubt:active {
-    background-color: #56cef3;
+    background-color: #69bbc9;
     box-shadow: 0 2px rgba(0, 0, 0, 0.253);
     transform: translateY(1px);
 }
@@ -92,6 +113,7 @@ body {
 .dropdown {
     position: relative;
     display: inline-block;
+
 }
 
 .dropdown-content {
@@ -99,7 +121,7 @@ body {
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     padding: 12px 25px;
 }
 

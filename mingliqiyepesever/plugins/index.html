@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="https://mingliqiye.com/image/icon.jpg"/>
+    <title>[PE]Mingliqiye-sever</title>
+    <meta name="author" content="mingli">
+    <meta http-equiv="refresh" content="20">
+    <meta name="description" content="嘿嘿">
+    <!--link out JAVASCRIPT anf CSS online-->
+    <script type="text/javascript" src="https://mingliqiye.com/js/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://mingliqiye.com/index.css">
+    <!--linkout-->
+    <style>
+        table, td, th {
+            border: 1px solid #5d2398;
+            width: auto;
+        }
+        td{
+            padding: 3px;
+        }
+
+        td:hover {
+            border: 1px solid rgb(27, 168, 55);
+        }
+
+        table {
+            width: 100%;
+        }
+
+        th {
+            height: 50px;
+        }
+
+        .copycode_box {
+            display: inline-block;
+            padding: 8px 8px;
+            font-size: 20px;
+            cursor: pointer;
+            text-align: left;
+            text-decoration: none;
+            outline: none;
+            color: #d5d4d4;
+            border-style: solid;
+            border-radius: 10px;
+            border-width: 1px;
+            box-shadow: 0 3px rgba(159, 131, 131, 0.13);
+            position: relative;
+        }
+
+        .copycode_box:hover {
+            color: #8aaf8a;
+        }
+
+        .copycode_box-content {
+            color: #8aaf8a;
+            display: none;
+        }
+
+        .copycode_box:hover .copycode_box-content {
+            color: #8aaf8a;
+            display: block;
+            position: absolute;
+        }
+
+        button {
+            background-color: #2ecdff;
+            border-radius: 5px;
+            border-width: 1px;
+        }
+
+        button:hover {
+            background-color: #28b4e0;
+            color: #363535;
+            border-radius: 5px;
+            border-width: 1px;
+        }
+    </style>
+    <!--linkout-->
+</head>
+<body>
+<p style="margin:0 0;height:80px;width:100%;"></p>
+<div style="text-align: center;width: 100%;"><h3>Mingliqiye Sever[PE] plugins</h3></div>
+<div id="mene" style="width:100%;">
+    <table>
+        <tr>
+            <th>插件名</th>
+            <th>格式</th>
+            <th>网址（直达）</th>
+        </tr>
+        <tr>
+            <td>Center一键传送-回城</td>
+            <td>JavaScript</td>
+            <td><a href="https://www.minebbs.com/resources/center.3679/">www.minebbs.com</a></td>
+        </tr>
+        <tr>
+            <td>infoMotd - 动感motd，还可显示实时信息</td>
+            <td>JavaScript</td>
+            <td><a href="https://www.minebbs.com/resources/infomotd-motd.5448">www.minebbs.com</a></td>
+        </tr>
+        <tr>
+            <td>(重构)BetterSidebar - 更好的自定义侧边栏</td>
+            <td>JavaScript</td>
+            <td><a href="https://www.minebbs.com/resources/bettersidebar.3071">www.minebbs.com</a></td>
+        </tr>
+        <tr>
+            <td>称号与备注系统</td>
+            <td>JavaScript</td>
+            <td><a href="https://www.minebbs.com/resources/5316">www.minebbs.com</a></td>
+        </tr>
+        <tr>
+            <td>入服欢迎</td>
+            <td>JavaScript</td>
+            <td><a href="https://www.minebbs.com/resources/4727">www.minebbs.com</a></td>
+        </tr>
+        <tr>
+            <td>罗盘-位置标记</td>
+            <td>JavaScript</td>
+            <td><a href="https://www.minebbs.net/resources/navigationapi-api.4423">www.minebbs.net</a></td>
+        </tr>
+        <tr>
+            <td>NavigationAPI</td>
+            <td>JavaScript</td>
+            <td><a href="https://www.minebbs.net/resources/navigationapi-api.4423">www.minebbs.net</a></td>
+        </tr>
+        <tr>
+            <td>坐标记录与广播</td>
+            <td>JavaScript</td>
+            <td><a href="https://www.minebbs.com/resources/3910">www.minebbs.com</a></td>
+        </tr>
+        <tr>
+            <td>call</td>
+            <td>LLPlugin</td>
+            <td><a href="https://www.minebbs.com/resources/call.4910">www.minebbs.com</a></td>
+        </tr>
+        <tr>
+            <td>Add_C</td>
+            <td>JavaScript</td>
+            <td><a href="https://www.minebbs.com/resources/add_c.5411">www.minebbs.com</a></td>
+        </tr>
+        <tr>
+            <td>headshow</td>
+            <td>DLL</td>
+            <td><a href="https://www.minebbs.com/resources/headshow.3405">www.minebbs.com</a></td>
+        </tr>
+        <tr>
+            <td>BEPlaceholderAPI</td>
+            <td>DLL</td>
+            <td><a href="https://www.minebbs.com/resources/beplaceholderapi.4181">www.minebbs.com</a></td>
+        </tr>
+    </table>
+</div>
+<p style="margin:0 0;height:50px;width:100%;"></p>
+<div class="header">
+    <div id="title" style="height:80px;width:142px;float:left;padding:0 10px;">
+        <img decoding="async" src="https://mingliqiye.com/image/title.png" style="height:80px;width:142px;"
+             alt="s"/>
+    </div>
+    <div class="dropdown" style="height:80px;width:80px;float:right;">
+        <div style="height:60px;width:60px;padding:10px 10px;">
+            <a href="https://github.com/Armamem0t/mingliqiye.com">
+                <button type="button" style="height:60px;width:60px;" class="mubt">
+                    <img decoding="async" src="https://github.githubassets.com/favicons/favicon.png" alt="s"/>
+                </button>
+            </a>
+        </div>
+        <div class="dropdown-content" style="float:right;left:unset;right:0;height:145px;width:200px;">
+            <h2>点击访问GitHub</h2>
+            <p>访问此网页GitHub查看代码</p>
+        </div>
+    </div>
+</div>
+<div class="bottom">
+    <div style="height:40px;width:162.5px;float:left;" class="hx">
+        <img decoding="async" style="padding:5px 5px;height:30px;width:30px;"
+             src="https://mingliqiye.com/image/icon_m.png" alt="s"/>
+        <p style="margin:auto;" class="blod">Mingliqiye.com</p>
+    </div>
+    <div id="date" style="float:right;padding:2px 5px;">
+        <div id="clock_c" class="ten"></div>
+        <div id="date_c" class="seven"></div>
+    </div>
+</div>
+</div>
+</body>
+</html>
